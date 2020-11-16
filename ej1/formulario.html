@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Obtener estad&ioacute;sticas de un texto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <nav>
+            <a class="estadisticas">
+                Obtener estad&iacute;sticas de un texto
+            </a> 
+        </nav>
+        <header>
+            <h1>
+                Formulario de b&uacute;squeda
+            </h1>
+        </header>
+        <main>
+            <article class="article_busqueda">
+                <div>
+                    <h2>
+                        Formulario
+                    </h2>
+                    <form action="index.php" method="get" id="form">
+                        <fieldset>
+                            <div>
+                                Texto:
+                                <br>
+                                <textarea cols="90" rows="20" name="texto" spellcheck="true" required="required" placeholder="Escriba el texto..." maxlength="3000"></textarea>
+                            </div><br>
+                            <div>
+                                B&uacute;squeda:
+                                <input type="text" name="busqueda" placeholder="Escriba la palabra a buscar..."/>
+                            </div><br>
+                            <div>
+                                Mesa de servicios: <select name="op2">
+                                    <option value="sinseleccionar">
+                                        Sin seleccionar
+                                    </option>
+                                    <option value="mesadeservicios">
+                                        Mesa de Servicios
+                                    </option>
+                                </select> <br><br><br>
+                            </div>
+                            <div>
+                                Opciones: <select name="opcion">
+                                    <option value="frases">
+                                        N&uacute;mero de frases
+                                    </option>
+                                    <option value="palabras">
+                                        N&uacute;mero de palabras
+                                    </option>
+                                    <option value="caracteres">
+                                        N&uacute;mero de caracteres
+                                    </option>
+                                </select> <br><br><br>
+                            </div>
+                        </fieldset><br>
+                        <div>
+                            <input type="submit" id="search" name="search" value="Buscar">
+                            <input type="reset" name="reset" value="Restablecer formulario">
+                        </div><br>
+                    </form>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <hr>
+            <p>
+            </p>
+            <div class="container">
+                <details>
+                    <summary>
+                        P&aacute;gina de búsqueda
+                    </summary>
+                </details>
+            </div>
+        </footer>
+    </body>
+</html>

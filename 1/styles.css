@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-nov-2020, 10:20:43
+    Author     : Eva León
+*/
+body{
+    background-color: #f8f5ec; 
+    font-family: sans-serif;
+    margin: 0
+}
+h1{
+    font-size: 36px;
+    font-style: initial;
+}
+h2{
+    font-size: 30px;
+}
+nav.estadisticas{
+    float: left;
+}
+nav{
+    background-color: #999999;
+    color: white;
+    padding: 14px 16px;
+}
+header{
+    padding:2%;
+    border-style: solid;
+    border-color: #ff6666;
+    border-width: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+container{
+    padding: 3%;
+}
+textarea[name=texto]{
+    width: 85%;
+    padding: 7.5%;
+    border: 1.7px solid #ace;
+    border-radius: 5px;
+    resize: vertical;
+}
+input[name=busqueda]{
+    width: 88%;
+    padding: 3.5%;
+    border: 1.7px solid #ace;
+    border-radius: 5px;
+    resize: vertical;
+}
